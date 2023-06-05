@@ -21,8 +21,7 @@ provider "aws" {
 
 
 module "aws_ecs_cluster" {
- # source = "git::https://github.com/tandfgroup/sampledevops.git//modules/ecs"
-  source = "./module/ecs"
+  source = "git::https://github.com/gavigowda/terraform_module.git//modules/ecs"
 
 }
   
